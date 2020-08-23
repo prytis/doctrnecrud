@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #fff;
+    background-attachment: fixed;
+    
+}
+    .container > .row {
+        width: 1000px;
+        margin: 0 calc(50% - 500px);
+    }
+    .left {
+        width: 50%;
+        float: left;
+        border: 2px solid black;
+        
+    }
+    .right {
+        width: 40%;
+        float: right;
+    }
+    .comp {
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+    }
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
